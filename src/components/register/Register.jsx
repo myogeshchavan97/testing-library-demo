@@ -61,9 +61,6 @@ const Register = () => {
       <div className="container">
         <h2 className="title">Register</h2>
         <Form onSubmit={handleFormSubmit}>
-          <h6 className="subtitle">
-            Please enter your details below to register yourself.
-          </h6>
           {successMsg && <Alert variant="success">{successMsg}</Alert>}
           {errorMsg && <Alert variant="danger">{errorMsg}</Alert>}
           <Form.Group className="mb-3" controlId="name">
